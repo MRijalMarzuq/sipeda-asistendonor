@@ -4,14 +4,11 @@
 // atau langsung isi di sini untuk testing
 // =============================================
 
-// src/utils/constants.js
 export const OPENROUTER_API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY;
 
-// Ganti modelnya ke Gemini 2.5 Flash Free tier
-export const MODEL = "google/gemini-2.5-flash:free";
-
+export const MODEL = "qwen/qwen-2.5-7b-instruct:free";
 export const AVAILABLE_MODELS = [
-  { id: "google/gemini-2.5-flash:free", label: "Bot Donor", badge: "AI" },
+  { id: "qwen/qwen-2.5-7b-instruct:free", label: "Bot Donor", badge: "AI" },
 ];
 
 export const SYSTEM_PROMPT = `Kamu adalah asisten donor darah yang ramah, informatif, dan penuh empati.
