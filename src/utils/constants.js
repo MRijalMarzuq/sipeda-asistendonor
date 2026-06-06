@@ -5,6 +5,9 @@
 // =============================================
 
 // src/utils/constants.js
+export const OPENROUTER_API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY || "sk-or-v1-GANTI_API_KEY_ANDA";
+
+// src/utils/constants.js
 
 export const MODEL = "meta-llama/llama-3-8b-instruct:free";
 
@@ -12,9 +15,6 @@ export const AVAILABLE_MODELS = [
   { id: "meta-llama/llama-3-8b-instruct:free", label: "Bot Donor", badge: "AI" },
 ];
 
-export const AVAILABLE_MODELS = [
-  { id: "openai/gpt-3.5-turbo", label: "Bot Donor", badge: "AI" },
-];
 
 export const SYSTEM_PROMPT = `Kamu adalah asisten donor darah yang ramah, informatif, dan penuh empati.
 Tugasmu membantu menjawab pertanyaan seputar:
