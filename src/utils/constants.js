@@ -7,14 +7,12 @@
 // src/utils/constants.js
 export const OPENROUTER_API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY;
 
-// src/utils/constants.js
-
-export const MODEL = "meta-llama/llama-3-8b-instruct:free";
+// Ganti modelnya ke Gemini 2.5 Flash Free tier
+export const MODEL = "google/gemini-2.5-flash:free";
 
 export const AVAILABLE_MODELS = [
-  { id: "meta-llama/llama-3-8b-instruct:free", label: "Bot Donor", badge: "AI" },
+  { id: "google/gemini-2.5-flash:free", label: "Bot Donor", badge: "AI" },
 ];
-
 
 export const SYSTEM_PROMPT = `Kamu adalah asisten donor darah yang ramah, informatif, dan penuh empati.
 Tugasmu membantu menjawab pertanyaan seputar:
