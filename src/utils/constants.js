@@ -4,7 +4,8 @@
 // atau langsung isi di sini untuk testing
 // =============================================
 
-export const OPENROUTER_API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY || "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";
+export const OPENROUTER_API_KEY =
+  import.meta.env.VITE_OPENROUTER_API_KEY;
 
 export const MODEL = "openai/gpt-3.5-turbo";
 
