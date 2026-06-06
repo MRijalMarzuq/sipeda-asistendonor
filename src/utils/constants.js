@@ -4,10 +4,13 @@
 // atau langsung isi di sini untuk testing
 // =============================================
 
-export const OPENROUTER_API_KEY =
-  import.meta.env.VITE_OPENROUTER_API_KEY;
+// src/utils/constants.js
 
-export const MODEL = "openai/gpt-3.5-turbo";
+export const MODEL = "meta-llama/llama-3-8b-instruct:free";
+
+export const AVAILABLE_MODELS = [
+  { id: "meta-llama/llama-3-8b-instruct:free", label: "Bot Donor", badge: "AI" },
+];
 
 export const AVAILABLE_MODELS = [
   { id: "openai/gpt-3.5-turbo", label: "Bot Donor", badge: "AI" },
