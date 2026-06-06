@@ -17,6 +17,9 @@ export function useChat(model) {
     async (userText) => {
       if (!userText.trim() || isLoading) return;
 
+      // Tambahkan baris ini untuk debugging di production:
+      console.log("Isi API KEY di Vercel:", import.meta.env.VITE_OPENROUTER_API_KEY);
+      
       setError(null);
 
       const userMessage = {
