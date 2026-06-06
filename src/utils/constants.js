@@ -6,9 +6,10 @@
 
 export const OPENROUTER_API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY;
 
-export const MODEL = "qwen/qwen-2.5-7b-instruct:free";
+export const MODEL = "openrouter/auto";
+
 export const AVAILABLE_MODELS = [
-  { id: "qwen/qwen-2.5-7b-instruct:free", label: "Bot Donor", badge: "AI" },
+  { id: "openrouter/auto", label: "Bot Donor", badge: "AI" },
 ];
 
 export const SYSTEM_PROMPT = `Kamu adalah asisten donor darah yang ramah, informatif, dan penuh empati.
