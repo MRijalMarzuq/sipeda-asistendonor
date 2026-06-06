@@ -5,7 +5,7 @@
 // =============================================
 
 // src/utils/constants.js
-export const OPENROUTER_API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY || "sk-or-v1-GANTI_API_KEY_ANDA";
+export const OPENROUTER_API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY;
 
 // src/utils/constants.js
 
